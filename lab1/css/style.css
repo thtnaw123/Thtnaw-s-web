@@ -1,0 +1,50 @@
+body{
+	background-color: lightblue;
+
+}
+p{
+	border-style: dotted;
+	border-color: #D578BE;
+	border-width: 7px;
+	padding-top: 10px;
+	margin: 5px 10px;
+	font: 
+	line-height:1.1em;
+	text-align: center;
+	text-decoration-line: none;
+	vertical-align: center;
+
+
+}
+/* padding the space around the content
+margin the space from the element to the border
+   font strom*/
+
+a {
+
+	height: 100px;
+	width: 350px;
+	margin:   25px 50px 75px 100px;
+	padding: 100px 15px;
+}
+
+.super{
+	font: 
+	line-height:1.1em;
+	text-align: center;
+	text-decoration-line: none;
+	vertical-align: center;
+
+}
+.sub{
+
+	font: serif;
+	line-height:1.1em;
+	text-align: center;
+	text-decoration-line: none;
+	vertical-align: center;
+	text-transform: 
+	font-family
+	font-size: 12px;
+
+}

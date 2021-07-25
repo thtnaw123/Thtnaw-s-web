@@ -1,0 +1,29 @@
+body{
+	font-family: verenda;
+	font-size: 1.1em;
+
+}
+header nav section footer article {
+	border:1px solid grey;
+	margin: 5px;
+	padding: 5px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	margin: 5px;
+
+}
+header footer{
+	color: white;
+	background-color: #f1f1f1; 
+	margin-bottom:5px;
+}
+section{
+	background-color: #ddd;
+}
+

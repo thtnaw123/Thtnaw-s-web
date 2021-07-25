@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is thtnaw's  personal website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Website</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Personal<span>Website.</span></a></div>
+            <ul class="menu show-desktop hide-mobile">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>                              
+                <li><a href="#skills" class="menu-btn">My skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+               <li class="dropdown">
+                <a href="#" class="dropbtn">lab Exsercises</a>
+                <div class="dropdown-content">
+                  <a href="first.html" >Lab 1</a>
+                  <a href="labtwo.html" >Lab 2</a>
+                  <a href="secondlabex.html" >Lab 3</a>
+                  <a href="root/index.html" >Draft portfolio </a>
+                         </div>
+            </ul>
+            <div class="menu-button hide-desktop">
+                <img src="css/images/ham.svg">
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Tehtnaw Bezuwork </div>
+                <div class="text-3">And I'm a <span class="typing"id="welcome-btn1" > junior developer </span></div>
+                <div id="welcome"><a href="#">welcome</a></div>
+                
+                <p id="date-btn" class="date-btn"></p>
+            </div>
+        </div>
+        <div style="margin-top: 790px;">
+        </div>
+    </section>
+
+    <!-- about section  -->
+        <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="css/images/me.jpg" alt=" my picture" title="this is me">
+                </div>
+                <div class="column right " >
+                    <div class="text">I'm Tehtnaw and I'm a <span class="typing-2">developer</span></div>
+                    <div id="about-text">
+                    <p>My name is Tihitinaw Bezuwork and I am third year CSE student with big desire to learn about the most influential tool of our lives computer and related stuffs. during my studies Computers and their immense diversity have interested me thoroughly. From the courses i took up to now particularly: artificial intelligence, diffrent programming  languages, Data base management,Fundamentals of Software Engineering  and some others have stretched my knowledge of computers and I always strive to expand my knowledge of these topics further. </p>
+                    </div>
+
+                    <button onclick="changetext()" class="about-button" id="about-text"> change color:<span class="color" style="color: lightblue">#F1f5f8</span> </button>
+                </div>
+
+            </div>
+        </div>
+        <div style="margin-top: 140px;"></div>
+    </section>
+
+
+    <!-- skills section  -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My skills & experiences.</div>
+                    <p> I must say I have a lot to do to improve my skills but the skills i got from my acadamics and other diffrent sources can be depicted as... </p>
+                </div>
+                <div class="column right">
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line JAVA"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line Cpp"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line HTML"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line CSS"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascript</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 100px;"></div>
+    </section>
+
+      <!-- contact section  -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>you can use these links to contact me </p>
+                    <div class="icons">
+                        <div class="row">
+                             <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Tehtnaw Bezuwork</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">ASTU,Adama, Ethiopia</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">Thtnawfourb@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field subject">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="main.js"></script> 
+
+    <!-- footer section  -->
+    <footer>
+         <div class="footer-text"><p>web programming CSE(3306) <br>
+         copyright © <span> Tehtnaw Bezuwork</span> </p> </div>
+                <div class="social">
+                    <ul>
+                        <div class="github"> <li>
+                            <a href="https://github.com/" target="_blank"class="github" aria-hidden="true"></a>
+                        </li> </div>
+                         <div class="fb"><li>
+                            <a href="https://www.facebook.com/" target="_blank" class="facebook" aria-hidden="true">
+                                <img src="css/images/FaceBook-icon.png"></a>
+                        </li> </div>
+                        
+                         <div class="telegram"><li>
+                            <a href="https://telegram.com/" target="_blank" class="telegram" aria-hidden="true">
+                                <img src="css/images/telegram.png"></a>
+                        </li> </div>
+                         <div class="gmail"><li>
+                            <a href="https://gmail.com/" target="_blank"  class=" gmail" aria-hidden="true">
+                                <img src="css/images/gmail.png"></a>
+                        </li> </div>
+                        
+                    </ul>
+                </div>
+
+    </footer>
+</body>
+</html>
